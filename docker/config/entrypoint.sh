@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ## change ownwer from home
 chown -R USER:USER /home/USER
 

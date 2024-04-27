@@ -46,4 +46,4 @@ RUN  useradd -m -px -u ${USERUID} -c ${USERNAME} -g ${USERNAME} -s /usr/bin/zsh 
 
 #    Configure entrypoint
 COPY config/entrypoint.sh /
-ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
